@@ -22,7 +22,7 @@ Pagina totalemente responsiva e adaptada para mobile.
 A Landing page contem algumas animações simples para não parecer muito estatica
 
 #### Cards
-<img src="https://i.imgur.com/lj36WKb.gif" width="600"></img>
+<img src="https://i.imgur.com/ZQgWqlU.gif" width="600"></img>
 
 #### Links
 <img src="https://i.imgur.com/TyZV2E6.gif" width="600"></img>
