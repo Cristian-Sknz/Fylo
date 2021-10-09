@@ -1,0 +1,121 @@
+.footer {
+  background-color: var(--footer-color);
+  padding-bottom: 4rem;
+  padding-top: 8rem;
+}
+
+.footer > img {
+  margin: 0 auto;
+  display: block;
+}
+
+.footer-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  color: white;
+
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  align-items: flex-start;
+}
+
+.location-container {
+  margin: 1rem 0;
+  display: flex;
+  max-width: 330px;
+}
+
+.location-text {
+  line-height: 1.3;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-link {
+  margin: 0.8rem 0;
+}
+
+.footer-link a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-size: 1.1rem;
+}
+
+.social-medias {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.location-icon {
+  vertical-align: top;
+}
+
+.location-icon::before {
+  content: url(../../assets/icon-location.svg);
+  margin-right: 1rem;
+}
+
+.contact-number::before {
+  content: url(../../assets/icon-phone.svg);
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
+.contact-email::before {
+  content: url(../../assets/icon-email.svg);
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
+.facebook-icon::before {
+  content: url(../../assets/icon-facebook.svg);
+}
+
+.twitter-icon::before {
+  content: url(../../assets/icon-twitter.svg);
+  margin: 0 1rem;
+}
+
+.instagram-icon::before {
+  content: url(../../assets/icon-instagram.svg);
+}
+
+.footer-body > * {
+  margin-top: 2rem;
+}
+
+.footer-body > :last-child {
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 769px) {
+  .footer-body {
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: none;
+    align-items: center;
+    padding: 0;
+  }
+
+  .footer > img {
+    margin: 0 5%;
+  }
+
+  .location-container {
+    margin: 0;
+  }
+
+  .social-medias {
+    align-items: center;
+    width: auto;
+  }
+}

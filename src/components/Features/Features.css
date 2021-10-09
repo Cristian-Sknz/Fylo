@@ -1,0 +1,42 @@
+.features-section {
+  background-color: var(--background-color);
+  padding: 1rem 0;
+}
+
+.features {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature {
+  color: white;
+  margin: 2rem 10%;
+  max-width: 372px;
+  min-width: 215px;
+}
+
+.feature-title > img {
+  display: block;
+  margin: 1rem auto;
+}
+
+.feature-title > h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.feature p {
+  text-align: center;
+  line-height: 1.5;
+  margin: 1rem 0;
+}
+
+@media screen and (min-width: 968px) {
+  .feature {
+    margin: 2rem 5rem;
+  }
+}

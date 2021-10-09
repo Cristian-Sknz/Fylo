@@ -1,0 +1,51 @@
+.navbar {
+    background-color: var(--primary-color)
+}
+
+.navbar-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4%;
+    min-height: 80px;
+}
+
+.navbar-itens li {
+    display: inline-block;
+    margin: 0 .8rem;
+}
+
+.navbar-itens li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-itens li a:hover {
+    border-bottom: 1px solid white;
+}
+
+.logo img {
+    width: 13vw;
+    max-width: 160px;
+    min-width: 100px;
+}
+
+@media screen and (min-width: 968px){
+    .navbar-body {
+        padding: 4rem 4rem;
+    }
+
+    .navbar-itens li {
+        margin: 0 2rem;
+    }
+
+    .logo {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .navbar-itens {
+        display: none;
+    }
+}

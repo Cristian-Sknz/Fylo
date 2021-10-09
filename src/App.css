@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  --primary-color: hsl(217, 28%, 15%);
+  --background-color: hsl(218, 28%, 13%);
+  --footer-color: hsl(216, 53%, 9%);
+  --card-color: hsl(219, 30%, 18%);
+  --button-color: hsl(198, 60%, 50%);
+  --button-active-color: hsl(176, 68%, 64%);
+  background-color: var(--background-color);
+}
+
+i.icon-arrow::before {
+  content: url(./assets/icon-arrow.svg);
+}

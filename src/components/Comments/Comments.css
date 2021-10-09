@@ -1,0 +1,81 @@
+.comments-section {
+    background-color: var(--background-color);
+    padding: 6rem 0;
+    transition: padding 1s;
+}
+
+.comments {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background: var(--card-color);
+    max-width: 345px;
+    border-radius: .5rem;
+    margin: 1rem;
+
+    color: white;
+    font-family: 'Raleway';
+}
+
+.comment:nth-child(even) {
+    animation: space 10s infinite cubic-bezier(0.4, 0, 1, 1) alternate-reverse;
+}
+
+.comment:nth-child(odd) {
+    animation: space 10s infinite cubic-bezier(0.4, 0, 1, 1) alternate;
+}
+
+@keyframes space {
+    0% {
+        transform: translate(0, -.7rem);
+    }
+
+    100% {
+        transform: translate(0, .7rem);
+    }
+}
+
+.comment-author {
+    display: flex;
+    align-items: center;
+}
+
+.comment-text {
+    margin: 1.3rem 0;
+    line-height: 1.3;
+}
+
+.comment-author img {
+    width: 25px;
+    border-radius: 1rem;
+}
+
+.author-info {
+    margin: 0 1rem;
+}
+
+.author-info > h3 {
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+.author-info > p {
+    font-size: .65rem;
+}
+
+@media screen and (max-width: 968px) {
+    .comments-section {
+        padding: 2rem 0;
+        transition: padding 1s;
+    }
+}
