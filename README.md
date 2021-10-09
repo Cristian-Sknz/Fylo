@@ -13,17 +13,17 @@ Este projeto foi feito com ReactJS, CSS e Typescript, foi um dos challenges do F
 
 ### Versão mobile
 
-Pagina totalemente responsiva e adaptada para mobile.
+Pagina totalmente responsiva e adaptada para mobile.
 
-<img src="https://i.imgur.com/lKFgffh.png" width="200"></img>
+<img src="https://i.imgur.com/lKFgffh.png" width="200"/>
 
 ### Animação simples
 
 A Landing page contem algumas animações simples para não parecer muito estatica
 
 #### Cards
-<img src="https://i.imgur.com/ZQgWqlU.gif" width="600"></img>
+<img src="https://i.imgur.com/ZQgWqlU.gif" width="600"/>
 
 #### Links
-<img src="https://i.imgur.com/TyZV2E6.gif" width="600"></img>
+<img src="https://i.imgur.com/TyZV2E6.gif" width="600"/>
 
